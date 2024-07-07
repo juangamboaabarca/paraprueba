@@ -35,7 +35,7 @@ namespace MathConsoleApp
                         double b = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese el tercer número:");
                         double c = double.Parse(Console.ReadLine());
-                        Console.WriteLine($"Resultado: {mathOps.Sumar(a, b , c)}");
+                        Console.WriteLine($"Resultado:  {mathOps.Sumar(a, b , c)}");
                         break;
                     case "2":// Restar
                         Console.WriteLine("Ingrese el primer número:");
